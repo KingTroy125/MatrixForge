@@ -23,7 +23,7 @@ export const NavigationSheet = () => {
           <Link href="#tools" className="text-white text-lg">Tools</Link>
           <Link href="#docs" className="text-white text-lg">Documentation</Link>
           <Link href="#github" className="text-white text-lg">GitHub</Link>
-          <Link href="/ascii-page">
+          <Link href="/converter">
             <Button className="w-full mt-4 bg-white text-black hover:bg-white/90">
               Try MatrixForge
             </Button>

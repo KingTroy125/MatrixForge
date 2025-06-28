@@ -39,7 +39,7 @@ const Hero03 = () => {
             with our powerful conversion engine built for developers.
           </p>
           <div className="mt-6 flex items-center justify-center gap-4">
-            <Link href="/ascii-page">
+            <Link href="/converter">
               <Button
                 size="lg"
                 className="rounded-full text-base bg-white text-black hover:bg-gray-200 font-mono"

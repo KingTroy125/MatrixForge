@@ -23,7 +23,7 @@ const Navbar04 = () => {
             <Terminal className="mr-2 h-4 w-4" />
             API Docs
           </Button>
-          <Link href="/ascii-page">
+          <Link href="/converter">
             <Button className="rounded-full bg-white text-black hover:bg-white hover:opacity-90 font-mono">
               <Code className="mr-2 h-4 w-4" />
               Try It Now

@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Code, Upload, Download } from "lucide-react"
 import { LensDemo } from "../lens-demo"
+import Link from "next/link"
 
 const steps = [
 	{
@@ -79,13 +80,15 @@ const HowToUse = () => {
 
 						{/* CTA */}
 						<div className="pt-8">
-							<Button
-								size="lg"
-								className="rounded-none bg-white text-black hover:bg-white font-mono"
-							>
-								Try It Now
-								<ArrowRight className="w-4 h-4 ml-2" />
-							</Button>
+							<Link href="/converter">
+								<Button
+									size="lg"
+									className="rounded-none bg-white text-black hover:bg-white font-mono"
+								>
+									Try It Now
+									<ArrowRight className="w-4 h-4 ml-2" />
+								</Button>
+							</Link>
 						</div>
 					</div>
 
