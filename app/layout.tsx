@@ -3,8 +3,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Shadcn UI Blocks",
-  description: "Customized Shadcn UI Blocks & Components",
+  title: "MatrixForge",
+  description: "Transform images, code, and text into mesmerizing ASCII art",
 }
 
 export default function RootLayout({
