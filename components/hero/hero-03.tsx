@@ -14,7 +14,7 @@ const Hero03 = () => {
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="relative w-4/5 h-4/5 max-w-3xl">
               <Image
-                src="/assets/img_2.png" 
+                src="https://github.com/KingTroy125/MatrixForge/blob/main/public/assets/img_2.png" 
                 alt="ASCII art face"
                 fill
                 className="object-contain object-center opacity-30"
