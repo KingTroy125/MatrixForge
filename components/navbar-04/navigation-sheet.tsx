@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
 import { Logo } from "./logo"
 import Link from "next/link"
@@ -15,6 +15,7 @@ export const NavigationSheet = () => {
         </Button>
       </SheetTrigger>
       <SheetContent className="bg-black border-l border-white">
+        <SheetTitle>Mobile Navigation</SheetTitle>
         <div className="py-6">
           <Logo />
         </div>
