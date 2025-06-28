@@ -11,8 +11,7 @@ export function LensDemo() {
       <CardHeader className="p-3 sm:p-6">
         <Lens zoomFactor={2} lensSize={120} isStatic={false} ariaLabel="Zoom Area">
           <img
-            src="https://images.unsplash.com/photo-1736606355698-5efdb410fe93?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="image placeholder"
+            src="/assets/img_2.png"
             width={400}
             height={400}
             className="w-full h-auto"
