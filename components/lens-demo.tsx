@@ -19,14 +19,14 @@ export function LensDemo() {
         </Lens>
       </CardHeader>
       <CardContent className="p-3 sm:p-6 pt-0">
-        <CardTitle className="text-lg sm:text-2xl">Your next camp</CardTitle>
+        <CardTitle className="text-lg sm:text-2xl"></CardTitle>
         <CardDescription className="text-sm sm:text-base">
-          See our latest and best camp destinations all across the five continents of the globe.
+          
         </CardDescription>
       </CardContent>
       <CardFooter className="space-x-2 sm:space-x-4 p-3 sm:p-6 pt-0">
         <Button size="sm" className="text-xs sm:text-sm">{"Let's go"}</Button>
-        <Button variant="secondary" size="sm" className="text-xs sm:text-sm">Another time</Button>
+        <Button variant="secondary" size="sm" className="text-xs sm:text-sm"></Button>
       </CardFooter>
     </Card>
   )
